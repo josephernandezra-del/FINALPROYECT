@@ -24,7 +24,7 @@ export default function Menu({ onAddToCart }: MenuProps) {
       subtitle: "Servidos en tortillas de maíz calientes, dobles, con opción de verdura fresca y piña.",
       price: 16,
       badge: "El Rey de la Taquería",
-      image: "/src/assets/images/mastacos_hero_banner_1779291002849.png" // using hero banner snippet as background ref subtly
+      image: "/src/assets/images/regenerated_image_1779293327747.jpg" // using our updated taco image
     },
     {
       id: "tortas",
