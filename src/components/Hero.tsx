@@ -1,13 +1,15 @@
 import { motion } from "motion/react";
 import { ArrowRight, Flame, Clock, MapPin, Sparkles } from "lucide-react";
 
+import heroImageFile from "../assets/images/mastacos_hero_banner_1779291002849.png";
+
 interface HeroProps {
   onScrollToSection: (id: string) => void;
 }
 
 export default function Hero({ onScrollToSection }: HeroProps) {
   // Use our real generated high quality taco picture
-  const heroImage = "/src/assets/images/mastacos_hero_banner_1779291002849.png";
+  const heroImage = heroImageFile;
 
   return (
     <section id="inicio" className="relative min-h-screen pt-20 flex items-center justify-center overflow-hidden bg-brand-dark">

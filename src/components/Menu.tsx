@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { Plus, Check, Info, Settings, Flame } from "lucide-react";
 import { CartItem } from "../types";
 
+import tacoImageFile from "../assets/images/regenerated_image_1779293327747.jpg";
+import tortaImageFile from "../assets/images/regenerated_image_1779291589586.jpg";
+
 interface MenuProps {
   onAddToCart: (item: CartItem) => void;
 }
@@ -24,7 +27,7 @@ export default function Menu({ onAddToCart }: MenuProps) {
       subtitle: "Servidos en tortillas de maíz calientes, dobles, con opción de verdura fresca y piña.",
       price: 16,
       badge: "El Rey de la Taquería",
-      image: "/src/assets/images/regenerated_image_1779293327747.jpg" // using our updated taco image
+      image: tacoImageFile // using our updated taco image
     },
     {
       id: "tortas",
@@ -32,7 +35,7 @@ export default function Menu({ onAddToCart }: MenuProps) {
       subtitle: "Pan telera crujiente con mayonesa, lechuga, tomate fresco, rebanadas de aguacate y queso manchego derretido.",
       price: 35,
       badge: "Sabor Monumental",
-      image: "/src/assets/images/regenerated_image_1779291589586.jpg" // using our updated torta image
+      image: tortaImageFile // using our updated torta image
     }
   ];
 
