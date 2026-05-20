@@ -1,0 +1,6 @@
+{
+  "name": "Mástacos Mahuixtlán",
+  "description": "Sitio web oficial de Mástacos en Mahuixtlán, Veracruz. Deliciosos tacos y tortas a domicilio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
